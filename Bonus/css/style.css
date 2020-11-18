@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 50px auto 50px;
+
+} 
+
+.row [class*="col-"] {
+  background-color: pink;
+}
+
+#speciale-occhi {
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(111, 111, 202);
+}
+
+#speciale-bocca {
+  background-color: #cf2b2b;
+}
+
+#speciale-guance {
+  height: 80%;
+  background-color: rgba(238, 106, 106, 0.418);
+  border-radius: 50%;
+}

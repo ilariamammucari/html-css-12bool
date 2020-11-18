@@ -12,3 +12,11 @@
 .row [class*="col-"] {
   background-color: pink;
 }
+
+.row .row {
+  padding: 10px;
+}
+
+.row .row [class*="col-"] {
+  background-color: rgb(218, 106, 125);
+}
